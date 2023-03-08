@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav {
+    background-color: darkgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+/* keeps name on left*/
+.name {
+    position: fixed;
+    background-color: darkorange;
+    padding: 10px;
+    font-weight: bold;
+    left: 0;
+    top:0;
+    height: 40px;
+    text-align: right;
+    width: 150px;
+}
+/* puts list to right side */
+
+.links {
+    float: right;
+    margin:0;
+    padding: 0;
+}
+
+
+.links li{
+    display: inline-block;
+    margin: 10px;
+    padding:10px;
+    text-decoration: underline;
+
+}
+
+.links li a{ 
+    display: block;
+    font-weight: bold;
+
+}
+
+.section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+/*Puts each title to the left side */
+.left-side{
+    width: 30%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+    padding: 10px;
+    border-right: solid black;
+}
+
+/* aligns all the info to the right side of the page*/
+.right-side {
+    width:65%;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+
+/* aligning list on same line*/
+.right-side li {
+    display: inline-block;
+    margin: 10px;
+}
